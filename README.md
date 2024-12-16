@@ -272,6 +272,201 @@ Publish the website in the given URL.
     </footer>
 </body>
 </html>
+
+##style.css
+
+
+/* Administration Page */
+.admin-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.admin-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.admin-header h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.admin-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
+    gap: 20px;
+    padding: 10px;
+}
+
+.admin-card {
+    text-align: center;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: transform 0.2s;
+}
+
+.admin-card:hover {
+    transform: scale(1.05); /* Subtle zoom on hover */
+}
+
+.admin-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Ensures consistent image size */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.admin-card h3 {
+    font-size: 1.4em;
+    color: #a6c50a;
+    margin-bottom: 5px;
+}
+
+.admin-card p {
+    font-size: 1em;
+    color: #d9ba0d;
+    margin: 5px 0;
+}
+
+.admin-card .experience {
+    font-size: 0.9em;
+    color: #d3d3d3;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: white;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Background Image for Home Page */
+.home-header {
+    background: url('photobg.jpg') no-repeat center center/cover;
+    height: 100vh; /* Full screen height */
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-header .banner h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.home-header .banner p {
+    font-size: 1.2em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Navigation Styles */
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    list-style: none;
+}
+
+nav ul li a {
+    color: rgb(234, 15, 15);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Featured Section */
+.featured {
+    margin: 20px 0;
+    text-align: center;
+    color: #e2dfdf;
+}
+
+.featured-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.featured-item img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.featured-item p {
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+
+/* Menu Card Layout */
+.menu-card {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: rgb(235, 232, 232);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.menu-details {
+    flex: 1;
+}
+
+.menu-details h3 {
+    font-size: 1.5em;
+    color: #db4b08;
+}
+
+.menu-details p {
+    color: #d19110;
+    margin-top: 5px;
+}
+
+.menu-details .price {
+    color: #c50a0a;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
 ```
 
 
